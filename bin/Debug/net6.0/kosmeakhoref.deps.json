@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "kosmeakhoref/1.0.0": {
         "dependencies": {
+          "GitHub": "1.34.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.1",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "6.0.1",
           "Microsoft.Identity.Web": "1.16.0",
@@ -77,6 +78,66 @@
           "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll": {
             "assemblyVersion": "4.1.0.0",
             "fileVersion": "4.100.20.41103"
+          }
+        }
+      },
+      "Carbon.Data.Protection/1.5.0": {
+        "runtime": {
+          "lib/net5.0/Carbon.Data.Protection.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      },
+      "Carbon.Packaging/1.50.0": {
+        "dependencies": {
+          "Carbon.Data.Protection": "1.5.0",
+          "Carbon.Storage": "3.0.1",
+          "Carbon.Versioning": "2.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.Packaging.dll": {
+            "assemblyVersion": "1.50.0.0",
+            "fileVersion": "1.50.0.0"
+          }
+        }
+      },
+      "Carbon.Storage/3.0.1": {
+        "runtime": {
+          "lib/net5.0/Carbon.Storage.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "Carbon.VersionControl/2.6.0": {
+        "dependencies": {
+          "Carbon.Storage": "3.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.VersionControl.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
+        }
+      },
+      "Carbon.Versioning/2.0.1": {
+        "runtime": {
+          "lib/net5.0/Carbon.Versioning.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "GitHub/1.34.0": {
+        "dependencies": {
+          "Carbon.Packaging": "1.50.0",
+          "Carbon.VersionControl": "2.6.0"
+        },
+        "runtime": {
+          "lib/net5.0/GitHub.dll": {
+            "assemblyVersion": "1.34.0.0",
+            "fileVersion": "1.34.0.0"
           }
         }
       },
@@ -294,6 +355,48 @@
       "sha512": "sha512-SK4XTPEaXI5UTdtSkr8TN4ZKnvazNHhybnnkxHgOyRAhV9ObcIjbrNlhS4ZeR8XtI+HidL+v/WIIVfR1+jKB8Q==",
       "path": "azure.security.keyvault.secrets/4.1.0",
       "hashPath": "azure.security.keyvault.secrets.4.1.0.nupkg.sha512"
+    },
+    "Carbon.Data.Protection/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3/+PcHtuKgBotHII1Dth0SLBhNDvu2oCec0QdlRus/oHyr25BpfyhvV7h84hWP4UQQjmvymQwM0f7jLy0Vr86w==",
+      "path": "carbon.data.protection/1.5.0",
+      "hashPath": "carbon.data.protection.1.5.0.nupkg.sha512"
+    },
+    "Carbon.Packaging/1.50.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w8QyiBSWSqgpTWmWSYe1jJHPa20i+pd+tPT0qFWvv0gsYuPkBU6zEbH9e6Y1Xr7HdT0SFEF80neWYKy0Y6yODA==",
+      "path": "carbon.packaging/1.50.0",
+      "hashPath": "carbon.packaging.1.50.0.nupkg.sha512"
+    },
+    "Carbon.Storage/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cymUDZ3EOryvSZEG9R8aK1Q42bbmBAoh8NX+mZdXar6AqzbUiw3rC8EmDbleRl/3l+7cpVd/TDFGxZsslfPqpA==",
+      "path": "carbon.storage/3.0.1",
+      "hashPath": "carbon.storage.3.0.1.nupkg.sha512"
+    },
+    "Carbon.VersionControl/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oo+oCdcRwrwjn/4I8CwzrDjH+vcTGvr9QPjJp4HFWAba3ahWiZhCWhioumbmBxnetLENGq6w64TC/xSNwecZbg==",
+      "path": "carbon.versioncontrol/2.6.0",
+      "hashPath": "carbon.versioncontrol.2.6.0.nupkg.sha512"
+    },
+    "Carbon.Versioning/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sb5wO/BgMAMvUX6gf41h7Qhl5BkbDZbGiZxm8krEq/cNbpnH+kWlo9TJmTk/5XBB+K97xzgpk2VkBedmEl1Ewg==",
+      "path": "carbon.versioning/2.0.1",
+      "hashPath": "carbon.versioning.2.0.1.nupkg.sha512"
+    },
+    "GitHub/1.34.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X+Rn0rMMBdxlaFIL/cZAowKcnU29/oNZ9c3p61yvgJ962LmFUjlF7c2rtqbWMmOjoWxWfdoGygc2EwIPSDUQng==",
+      "path": "github/1.34.0",
+      "hashPath": "github.1.34.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.1": {
       "type": "package",

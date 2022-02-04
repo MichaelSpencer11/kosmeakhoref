@@ -46,3 +46,9 @@ C:\Users\mspen\source\repos\kosmeakhoref\kosmeakhoref\obj\Debug\net6.0\kosmeakho
 C:\Users\mspen\source\repos\kosmeakhoref\kosmeakhoref\obj\Debug\net6.0\ref\kosmeakhoref.dll
 C:\Users\mspen\source\repos\kosmeakhoref\kosmeakhoref\obj\Debug\net6.0\kosmeakhoref.pdb
 C:\Users\mspen\source\repos\kosmeakhoref\kosmeakhoref\obj\Debug\net6.0\kosmeakhoref.genruntimeconfig.cache
+C:\Users\mspen\source\repos\kosmeakhoref\kosmeakhoref\bin\Debug\net6.0\Carbon.Data.Protection.dll
+C:\Users\mspen\source\repos\kosmeakhoref\kosmeakhoref\bin\Debug\net6.0\Carbon.Packaging.dll
+C:\Users\mspen\source\repos\kosmeakhoref\kosmeakhoref\bin\Debug\net6.0\Carbon.Storage.dll
+C:\Users\mspen\source\repos\kosmeakhoref\kosmeakhoref\bin\Debug\net6.0\Carbon.VersionControl.dll
+C:\Users\mspen\source\repos\kosmeakhoref\kosmeakhoref\bin\Debug\net6.0\Carbon.Versioning.dll
+C:\Users\mspen\source\repos\kosmeakhoref\kosmeakhoref\bin\Debug\net6.0\GitHub.dll
